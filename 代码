@@ -37,7 +37,7 @@ def plot_harris_points(image,filtered_coords):
     plt.show()
 
 
-im=np.array(Image.open('../../data/ComputerVision/harris/first.png').convert('L'))
+im=np.array(Image.open('/data/first.png').convert('L'))
 harrisim=compute_harris_respose(im)
 filtered_coords=get_harris_points(harrisim,20)
 plot_harris_points(im,filtered_coords)
