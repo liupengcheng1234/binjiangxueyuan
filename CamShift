@@ -81,7 +81,7 @@ int main(int argc, const char** argv)
         help();
         return 0;
     }
-    cap.open("/dataset/ComputerVision/Computer_Vision/image/tracking.avi");
+    cap.open("/root/Desktop/Computer_Vision/image/tracking.avi");
     if (!cap.isOpened())
     {
         help();
